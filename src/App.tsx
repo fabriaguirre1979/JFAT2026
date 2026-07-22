@@ -1,0 +1,56 @@
+import { useState, useEffect, Suspense, lazy } from 'react';
+import { Outlet } from '@tanstack/react-router';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import CyberpunkLoader from './components/loader/CyberpunkLoader';
+import Navigation from './components/navigation/Navigation';
+import WhatsAppButton from './components/WhatsAppButton';
+import { useLenis } from './hooks/useLenis';
+
+// Register plugin once globally
+gsap.registerPlugin(ScrollTrigger);
+
+const ParticleField = lazy(() => import('./components/three/ParticleField'));
+
+function App() {
+  const [showLoader, setShowLoader] = useState(true);
+
+  // Smooth scroll
+  useLenis();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLoader(false);
+    }, 3200);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <>
+      {showLoader && <CyberpunkLoader onComplete={() => setShowLoader(false)} />}
+
+      <div style={{ display: showLoader ? 'none' : 'block' }}>
+        {/* 3D Background */}
+        <Suspense fallback={null}>
+          <ParticleField />
+        </Suspense>
+
+        {/* Navigation */}
+        <Navigation />
+
+        {/* Content */}
+        <main id="main-content" style={{ position: 'relative', zIndex: 1 }}>
+          <Outlet />
+        </main>
+
+        {/* WhatsApp floating button */}
+        <WhatsAppButton />
+
+        {/* Noise overlay */}
+        <div className="noise" />
+      </div>
+    </>
+  );
+}
+
+export default App;

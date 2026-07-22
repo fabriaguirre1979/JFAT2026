@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "hero": "Home",
+    "pathways": "Pathways",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "loader": {
+    "initializing": "INITIALIZING NEURAL NETWORK",
+    "loading": "LOADING MEMORY BANKS",
+    "ready": "SYSTEM READY"
+  },
+  "hero": {
+    "title": "FABRICIO AGUIRRE T.",
+    "subtitle": "Forward Deployed Engineer & Web Developer",
+    "description": "Where agriculture meets automation. Where drones meet code. Where every skill learned becomes a new neural pathway.",
+    "scrollHint": "Scroll to explore"
+  },
+  "thoughts": {
+    "title": "NEURAL PATHWAYS",
+    "subtitle": "Every skill a connection. Every experience a node.",
+    "phase1": "Roots in the field — learning to nurture, to grow, to understand living systems",
+    "phase2": "Wings in the sky — piloting drones, mastering aerial perspective, precision from above",
+    "phase3": "Voice in the market — selling, connecting, translating value into language",
+    "phase4": "Flow on ice — hockey, skating, teaching movement, balance, discipline",
+    "phase5": "Mind in the machine — prompt engineering, AI development, MCP, LLM agents",
+    "phase6": "Code in the veins — React, Vite, Python, HTML, CSS, JS, PHP, Git mastery"
+  },
+  "skills": {
+    "title": "SKILL MATRIX",
+    "subtitle": "Categorized expertise built across diverse domains",
+    "categories": {
+      "agriculture": "Agro-Engineering",
+      "tech": "Software Engineering",
+      "aviation": "Drone Aviation",
+      "sales": "Sales & Business",
+      "sports": "Athletics & Coaching",
+      "education": "Education & Mentoring",
+      "ai": "AI & LLM Engineering"
+    },
+    "items": {
+      "agro": {
+        "name": "Agricultural Engineering",
+        "desc": "Crop nutrition, soil health, irrigation systems, sustainable farming practices"
+      },
+      "drone": {
+        "name": "Drone Pilot",
+        "desc": "100+ flight hours, aerial surveying, precision agriculture mapping, FPV racing"
+      },
+      "sales": {
+        "name": "Sales & Business Development",
+        "desc": "B2B sales, client relations, negotiation, revenue growth strategies"
+      },
+      "hockey": {
+        "name": "Hockey Player",
+        "desc": "Competitive play, team dynamics, strategic thinking, physical conditioning"
+      },
+      "skating": {
+        "name": "Skating Coach",
+        "desc": "Technique instruction, youth development, safety protocols, progression planning"
+      },
+      "prompt": {
+        "name": "Prompt Engineering",
+        "desc": "Advanced prompting techniques, chain-of-thought, few-shot optimization, RAG patterns"
+      },
+      "ai_dev": {
+        "name": "AI Developer",
+        "desc": "LLM integration, agent architectures, vector databases, tool calling, evaluation"
+      },
+      "mcp": {
+        "name": "MCP & Agents",
+        "desc": "Model Context Protocol, multi-agent systems, autonomous workflows, tool orchestration"
+      },
+      "react": {
+        "name": "React & Vite",
+        "desc": "Modern React patterns, hooks, state management, performance optimization, SSR"
+      },
+      "python": {
+        "name": "Python",
+        "desc": "Backend APIs, data processing, automation scripts, ML pipelines, FastAPI/Django"
+      },
+      "web_fundamentals": {
+        "name": "Web Fundamentals",
+        "desc": "HTML5, CSS3, JavaScript ES6+, TypeScript, accessibility, performance"
+      },
+      "php": {
+        "name": "PHP",
+        "desc": "Laravel, Symfony, legacy modernization, API development, database optimization"
+      },
+      "git": {
+        "name": "Advanced Git",
+        "desc": "Complex rebasing, cherry-picking, bisecting, hooks, CI/CD integration, monorepos"
+      }
+    }
+  },
+  "projects": {
+    "title": "PROJECT PORTFOLIO",
+    "subtitle": "Real-world applications solving real problems",
+    "viewLive": "View Live",
+    "viewCode": "View Code",
+    "tags": "Tech Stack"
+  },
+  "contact": {
+    "title": "LET'S CONNECT",
+    "subtitle": "Open to opportunities, collaborations, and interesting conversations",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "emailAddress": "fabriaguirre@gmail.com",
+    "githubUrl": "https://github.com/MascotaCool/principal",
+    "linkedinUrl": "https://www.linkedin.com/in/fabricio-aguirre-1979may28",
+    "whatsappUrl": "https://api.whatsapp.com/send?phone=593998741295&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20proyectos.%20GRACIAS",
+    "cta": "Start a conversation"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Made with",
+    "and": "and"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español"
+  }
+}

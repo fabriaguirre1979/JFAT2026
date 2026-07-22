@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "hero": "Inicio",
+    "pathways": "Trayectoria",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "loader": {
+    "initializing": "INICIALIZANDO RED NEURONAL",
+    "loading": "CARGANDO BANCOS DE MEMORIA",
+    "ready": "SISTEMA LISTO"
+  },
+  "hero": {
+    "title": "FABRICIO AGUIRRE T.",
+    "subtitle": "Forward Deployed Engineer & Web Developer",
+    "description": "Donde la agricultura se encuentra con la automatización. Donde los drones se encuentran con el código. Donde cada habilidad aprendida se convierte en una nueva vía neuronal.",
+    "scrollHint": "Desplázate para explorar"
+  },
+  "thoughts": {
+    "title": "VÍAS NEURONALES",
+    "subtitle": "Cada habilidad una conexión. Cada experiencia un nodo.",
+    "phase1": "Raíces en el campo — aprendiendo a nutrir, a cultivar, a entender sistemas vivos",
+    "phase2": "Alas en el cielo — pilotando drones, dominando la perspectiva aérea, precisión desde arriba",
+    "phase3": "Voz en el mercado — vendiendo, conectando, traduciendo valor en lenguaje",
+    "phase4": "Flujo sobre hielo — hockey, patinaje, enseñando movimiento, equilibrio, disciplina",
+    "phase5": "Mente en la máquina — ingeniería de prompts, desarrollo de IA, MCP, agentes LLM",
+    "phase6": "Código en las venas — React, Vite, Python, HTML, CSS, JS, PHP, dominio de Git"
+  },
+  "skills": {
+    "title": "MATRIZ DE HABILIDADES",
+    "subtitle": "Experiencia categorizada construida a través de dominios diversos",
+    "categories": {
+      "agriculture": "Agro-Ingeniería",
+      "tech": "Ingeniería de Software",
+      "aviation": "Aviación de Drones",
+      "sales": "Ventas y Negocios",
+      "sports": "Deportes y Coaching",
+      "education": "Educación y Mentoría",
+      "ai": "IA e Ingeniería LLM"
+    },
+    "items": {
+      "agro": {
+        "name": "Ingeniería Agrícola",
+        "desc": "Nutrición de cultivos, salud del suelo, sistemas de riego, prácticas agrícolas sostenibles"
+      },
+      "drone": {
+        "name": "Piloto de Drones",
+        "desc": "100+ horas de vuelo, topografía aérea, mapeo de agricultura de precisión, FPV racing"
+      },
+      "sales": {
+        "name": "Ventas y Desarrollo de Negocios",
+        "desc": "Ventas B2B, relaciones con clientes, negociación, estrategias de crecimiento de ingresos"
+      },
+      "hockey": {
+        "name": "Jugador de Hockey",
+        "desc": "Juego competitivo, dinámica de equipo, pensamiento estratégico, acondicionamiento físico"
+      },
+      "skating": {
+        "name": "Entrenador de Patinaje",
+        "desc": "Instrucción de técnica, desarrollo juvenil, protocolos de seguridad, planificación de progresión"
+      },
+      "prompt": {
+        "name": "Ingeniería de Prompts",
+        "desc": "Técnicas avanzadas de prompting, chain-of-thought, optimización few-shot, patrones RAG"
+      },
+      "ai_dev": {
+        "name": "Desarrollador de IA",
+        "desc": "Integración LLM, arquitecturas de agentes, bases de datos vectoriales, tool calling, evaluación"
+      },
+      "mcp": {
+        "name": "MCP y Agentes",
+        "desc": "Protocolo de Contexto de Modelo, sistemas multi-agente, flujos de trabajo autónomos, orquestación de herramientas"
+      },
+      "react": {
+        "name": "React y Vite",
+        "desc": "Patrones modernos de React, hooks, gestión de estado, optimización de rendimiento, SSR"
+      },
+      "python": {
+        "name": "Python",
+        "desc": "APIs backend, procesamiento de datos, scripts de automatización, pipelines ML, FastAPI/Django"
+      },
+      "web_fundamentals": {
+        "name": "Fundamentos Web",
+        "desc": "HTML5, CSS3, JavaScript ES6+, TypeScript, accesibilidad, rendimiento"
+      },
+      "php": {
+        "name": "PHP",
+        "desc": "Laravel, Symfony, modernización legacy, desarrollo de APIs, optimización de base de datos"
+      },
+      "git": {
+        "name": "Git Avanzado",
+        "desc": "Rebase complejo, cherry-picking, bisecting, hooks, integración CI/CD, monorepos"
+      }
+    }
+  },
+  "projects": {
+    "title": "PORTAFOLIO DE PROYECTOS",
+    "subtitle": "Aplicaciones del mundo real resolviendo problemas reales",
+    "viewLive": "Ver en Vivo",
+    "viewCode": "Ver Código",
+    "tags": "Stack Tecnológico"
+  },
+  "contact": {
+    "title": "CONECTEMOS",
+    "subtitle": "Abierto a oportunidades, colaboraciones y conversaciones interesantes",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "emailAddress": "fabriaguirre@gmail.com",
+    "githubUrl": "https://github.com/MascotaCool/principal",
+    "linkedinUrl": "https://www.linkedin.com/in/fabricio-aguirre-1979may28",
+    "whatsappUrl": "https://api.whatsapp.com/send?phone=593998741295&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20proyectos.%20GRACIAS",
+    "cta": "Inicia una conversación"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "madeWith": "Hecho con",
+    "and": "y"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español"
+  }
+}
