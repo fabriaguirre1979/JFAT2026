@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 
 const WHATSAPP_URL =
@@ -9,6 +9,12 @@ export default function WhatsAppButton() {
   const glowRef = useRef<HTMLDivElement>(null!);
   const pulseRef = useRef<HTMLDivElement>(null!);
   const tooltipRef = useRef<HTMLSpanElement>(null!);
+
+  // Detect if device supports hover (false = touch-first device)
+  const [canHover, setCanHover] = useState(false);
+  useEffect(() => {
+    setCanHover(window.matchMedia('(hover: hover)').matches);
+  }, []);
 
   // Entrance animation
   useEffect(() => {
@@ -43,13 +49,16 @@ export default function WhatsAppButton() {
     return () => gsap.killTweensOf(pulse);
   }, []);
 
+  // Hover effects — only on devices that actually support hover
   const handleMouseEnter = () => {
+    if (!canHover) return;
     gsap.to(btnRef.current, { scale: 1.1, duration: 0.3, ease: 'power3.out' });
     gsap.to(glowRef.current, { opacity: 0.6, duration: 0.3, ease: 'power2.out' });
     gsap.to(tooltipRef.current, { opacity: 1, x: 0, duration: 0.3, ease: 'power3.out' });
   };
 
   const handleMouseLeave = () => {
+    if (!canHover) return;
     gsap.to(btnRef.current, { scale: 1, duration: 0.3, ease: 'power3.out' });
     gsap.to(glowRef.current, { opacity: 0, duration: 0.3, ease: 'power2.out' });
     gsap.to(tooltipRef.current, { opacity: 0, x: 10, duration: 0.3, ease: 'power3.out' });
@@ -83,7 +92,9 @@ export default function WhatsAppButton() {
           transform: 'translateX(10px)',
           borderRadius: 'var(--radius-md)',
           pointerEvents: 'none',
+          transition: canHover ? 'none' : 'opacity 0.2s ease',
         }}
+        data-tooltip="Hablemos"
       >
         <span style={{ color: 'var(--copper-400)' }}>💬</span> Hablemos
       </span>
@@ -112,6 +123,10 @@ export default function WhatsAppButton() {
           border: '1px solid rgba(201, 100, 66, 0.25)',
           boxShadow: '0 4px 20px rgba(0, 0, 0, 0.4)',
           transition: 'box-shadow 0.3s ease, border-color 0.3s ease',
+          WebkitTapHighlightColor: 'transparent',
+          // Slight active feedback for touch
+          WebkitUserSelect: 'none',
+          userSelect: 'none',
         }}
       >
         {/* Glow ring */}

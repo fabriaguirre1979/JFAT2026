@@ -302,6 +302,14 @@ body {
 }
 
 /* ── Responsive ── */
+/* ── Responsive nav ── */
+.desktop-nav {
+  display: flex !important;
+}
+.mobile-header {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .section {
     padding: var(--space-xl) var(--space-md);
@@ -311,6 +319,14 @@ body {
   }
   .section-subtitle {
     font-size: 0.95rem;
+  }
+
+  /* Mobile nav: show mobile header, hide desktop nav */
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-header {
+    display: flex !important;
   }
 }
 
