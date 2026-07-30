@@ -1,20 +1,29 @@
 <div align="center">
   <br/>
-  <pre style="font-family: 'JetBrains Mono', monospace; background: #0a0a0f; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(201, 100, 66, 0.2); color: #faf9f5;">
-╔══════════════════════════════════════════════════╗
-║     ██╗  ███████╗ █████╗ ████████╗██████╗      ║
-║     ██║  ██╔════╝██╔══██╗╚══██╔══╝╚════██╗     ║
-║     ██║  █████╗  ███████║   ██║    █████╔╝     ║
-║     ██║  ██╔══╝  ██╔══██║   ██║    ╚═══██╗     ║
-║     ██║  ██║     ██║  ██║   ██║   ██████╔╝     ║
-║     ╚═╝  ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═════╝      ║
-║                                                    ║
-║     FORWARD DEPLOYED ENGINEER & WEB DEVELOPER      ║
-╚══════════════════════════════════════════════════╝</pre>
-  <br/>
-  <h3 align="center" style="font-family: 'JetBrains Mono', monospace; color: #d97757;">
-    <code>~ $ where agriculture meets automation · where drones meet code ~</code>
-  </h3>
+  <table>
+    <tr>
+      <td style="padding: 0 2rem 0 0; border: none; vertical-align: middle;">
+        <pre style="font-family: 'JetBrains Mono', monospace; background: #0a0a0f; padding: 0.8rem 1.2rem; border-radius: 8px; border: 1px solid rgba(79, 195, 247, 0.15); color: #4fc3f7; font-size: 0.7rem; line-height: 1.3; letter-spacing: 0.1em;">
+╔══════════════════════╗
+║    fabricioat_33     ║
+║   ────────────────   ║
+║   Forward Deployed   ║
+║   Engineer & Web Dev ║
+╚══════════════════════╝</pre>
+      </td>
+      <td style="padding: 0; border: none; vertical-align: middle; text-align: left; font-family: 'JetBrains Mono', monospace;">
+        <div style="color: #d97757; font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em;">
+          fabricioat_33
+        </div>
+        <div style="color: #807e75; font-size: 0.75rem; margin-top: 0.3rem; letter-spacing: 0.15em;">
+          <span style="color: #c96442;">✦</span> donde la agricultura se encuentra con la automatización
+        </div>
+        <div style="color: #807e75; font-size: 0.75rem; letter-spacing: 0.15em;">
+          <span style="color: #4fc3f7;">✦</span> donde los drones se encuentran con el código
+        </div>
+      </td>
+    </tr>
+  </table>
   <br/>
 </div>
 
@@ -35,7 +44,7 @@
 
 ## ⚡ Overview
 
-**JFAT2026** is the digital port of call for **Fabricio Aguirre T.** — a *Forward Deployed Engineer* whose trajectory spans from agricultural engineering and drone aviation to full-stack software development and LLM agent architectures.
+**fabricioat_33** is the digital port of call for **Fabricio Aguirre T.** — a *Forward Deployed Engineer* whose trajectory spans from agricultural engineering and drone aviation to full-stack software development and LLM agent architectures.
 
 > Every skill learned becomes a new neural pathway.  
 > Every experience, a node in an ever-expanding network.
