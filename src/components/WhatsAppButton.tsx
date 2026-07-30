@@ -69,7 +69,7 @@ export default function WhatsAppButton() {
       style={{
         position: 'fixed',
         bottom: '2rem',
-        right: 'calc(2rem + 2.5cm)',
+        right: '0.75rem',
         zIndex: 9998,
         display: 'flex',
         alignItems: 'center',
