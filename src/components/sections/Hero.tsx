@@ -45,6 +45,10 @@ export default function Hero() {
   // Entrance + looping shatter
   useEffect(() => {
     const ctx = gsap.context(() => {
+      // Mobile: sin shatter loop — el nombre siempre legible en pantallas
+      // pequeñas/GPU débil (el efecto se queda "trabado" y parece otro idioma)
+      const isMobile = window.matchMedia('(max-width: 768px)').matches;
+
       // ── Label ──
       gsap.fromTo(labelRef.current,
         { opacity: 0, y: 20 },
@@ -104,6 +108,7 @@ export default function Hero() {
 
       // ── LOOPING SHATTER — each character distorts then reforms ──
       // Wait for entrance to finish, then start the infinite loop
+      if (!isMobile) {
       const chars = [...(charsRef.current?.keys() || [])];
       if (!chars.length) return;
 
@@ -152,6 +157,7 @@ export default function Hero() {
           stagger: { each: 0.012, from: 'random' },
         });
       });
+      }
 
       // Kill on cleanup — context.revert handles everything
     }, containerRef);
